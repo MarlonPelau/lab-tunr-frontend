@@ -22,8 +22,8 @@ function Tunes() {
           <thead>
             <tr>
               <th></th>
-              <th>Take me there</th>
-              <th>See this tune</th>
+              <th>🎼 Tunes 📻</th>
+              <th>click👇🏾 below</th>
             </tr>
           </thead>
           <tbody>

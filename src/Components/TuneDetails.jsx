@@ -27,7 +27,7 @@ function TuneDetails() {
 return (
   <article>
     <h3>
-      {tune.is_favorite ? <span>⭐️</span> : null} {tune.name}
+      {tune.is_favorite ? <span>🍣</span> : null} {tune.name}
     </h3>
     <h5>
       <span>

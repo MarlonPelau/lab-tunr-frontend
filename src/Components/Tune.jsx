@@ -5,7 +5,7 @@ function Tune ({ tune }) {
     <tr>
       <td>
         {tune.is_favorite ? (
-          <span>⭐️</span>
+          <span>🍣</span>
         ) : (
           <span>&nbsp; &nbsp; &nbsp;</span>
         )}
@@ -16,7 +16,7 @@ function Tune ({ tune }) {
         </a>
       </td>
       <td>
-        <Link to={`/tunes/${tune.id}`}>✏️</Link>
+        <Link to={`/tunes/${tune.id}`}>🎧</Link>
       </td>
     </tr>
   );
