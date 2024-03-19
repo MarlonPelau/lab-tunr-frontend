@@ -37,4 +37,4 @@ function Tunes() {
   );
 }
 
-export default Tune;
+export default Tunes;

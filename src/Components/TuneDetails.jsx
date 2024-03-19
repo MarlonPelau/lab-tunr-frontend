@@ -53,7 +53,7 @@ return (
       <button onClick={deleteTune}>Delete</button>
       </div>
     </div>
-    <Spinners/>
+    {/* <Spinners/> */}
   </article>
 )
 }

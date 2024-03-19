@@ -74,7 +74,7 @@ function TuneNewForm() {
           id="is_favorite"
           type="checkbox"
           onChange={handleCheckboxChange}
-          checked={bookmark.is_favorite}
+          checked={tune.is_favorite}
         />
         <label htmlFor="time">Time:</label>
         <textarea
