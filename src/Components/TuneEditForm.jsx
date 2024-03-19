@@ -25,7 +25,7 @@ function TuneEditForm() {
 
   // Update a tune. Redirect to show view
   const updateTune = () => {
-    console.log(`${API}/tunes/${id}`);
+    // console.log(`${API}/tunes/${id}`);
 
     fetch(`${API}/tunes/${id}`, {
       method: "PUT",

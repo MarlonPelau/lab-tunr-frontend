@@ -10,8 +10,8 @@ function Tunes() {
       .then((response) => {
         return response.json()
       })
-      .then((responseJSON) => {
-        setTunes(responseJSON)
+      .then((data) => {
+        setTunes(data)
       })
       .catch((error) => console.error(error))
   }, [])

@@ -1,7 +1,7 @@
 // DEPENDENCIES
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-// PAGES
+// JAMS
 import Edit from "./Jams/Edit";
 import FourOFour from "./Jams/FourOFour";
 import Home from "./Jams/Home";

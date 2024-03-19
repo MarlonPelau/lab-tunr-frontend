@@ -53,7 +53,7 @@ function TuneNewForm() {
           placeholder="Name of Tune"
           required
         />
-        <label htmlFor="url">Artist:</label>
+        <label htmlFor="artist">Artist:</label>
         <input
           id="artist"
           type="text"

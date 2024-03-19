@@ -1,8 +1,8 @@
 function Home() {
     return (
       <div>
-        <h2>Yo Yo!</h2>
-        <h3>Tune into Tunr Yo!</h3>
+        <h2>Yo..</h2>
+        <h3>TUNE into tunr!</h3>
       </div>
     );
   }

@@ -9,17 +9,20 @@ function TuneDetails() {
   
 
   useEffect(() => {
-    fetch(`${API}/tunes/${id}`, {
-      method: 'DELETE',
-    })
+    fetch(`${API}/tunes/${id}`)
     .then((response) => response.json())
     .then((data) => setTune(data))
     .catch((error) => console.error(error));
     }, [id]);
-    const handleDelete = () => {
-      deleteTune()
+
+   function deleteTune() {
+      fetch(`${API}/tunes/${id}`, {
+        method: "DELETE",
+      })
+        .then(() => navigate(`/tunes`))
+        .catch((error) => console.error(error));
     }
-// Further down inside the component
+
 
 return (
   <article>
@@ -47,9 +50,10 @@ return (
         </Link>
       </div>
       <div>
-      <button onClick={handleDelete}>Delete</button>
+      <button onClick={deleteTune}>Delete</button>
       </div>
     </div>
+    <Spinners/>
   </article>
 )
 }
